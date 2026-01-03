@@ -26,7 +26,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: https://github.com/crocodilestick/Calibre-Web-"
 "Automated\n"
 "POT-Creation-Date: 2025-09-03 14:59+0200\n"
-"PO-Revision-Date: 2025-11-17 21:51+0100\n"
+"PO-Revision-Date: 2026-01-03 21:00+0100\n"
 "Last-Translator: Tex <tex@grosist.fr>\n"
 "Language-Team: \n"
 "Language: fr\n"
@@ -588,11 +588,8 @@ msgid "User '%(user)s' created"
 msgstr "Utilisateur '%(user)s' créé"
 
 #: cps/admin.py:2105
-#, fuzzy
 msgid "Oops! An account already exists for this Email. or name."
-msgstr ""
-"Un compte existant a été trouvé pour cette adresse de courriel ou pour ce "
-"surnom."
+msgstr "Oups ! Un compte existe déjà pour cet e-mail ou ce nom."
 
 #: cps/admin.py:2135
 #, python-format
@@ -648,9 +645,9 @@ msgid "Metadata is missing required fields: %(fields)s"
 msgstr "Les métadonnées ne contiennent pas les champs requis : %(fields)s"
 
 #: cps/admin.py:2323
-#, fuzzy, python-format
+#, python-format
 msgid "Metadata URL is valid! Found %(count)s endpoints."
-msgstr "L'URL des métadonnées est valide ! %(count)s endpoints trouvés."
+msgstr "L'URL des métadonnées est valide ! %(count)s points de terminaison trouvés."
 
 #: cps/constants.py:207
 msgid "Czech"
@@ -832,9 +829,8 @@ msgid "Original Format"
 msgstr "Format original"
 
 #: cps/cwa_functions.py:332
-#, fuzzy
 msgid "End Format"
-msgstr "Format du fichier téléversé"
+msgstr "Format final"
 
 #: cps/cwa_functions.py:347
 msgid "Calibre-Web Automated Sever Stats & Archive"
@@ -903,10 +899,8 @@ msgid "Calibre-Web Automated - Convert Library"
 msgstr "Calibre-Web Automated - Convertir la bibliothèque"
 
 #: cps/cwa_functions.py:724 cps/cwa_functions.py:730
-#, fuzzy
 msgid "Calibre-Web Automated - Send-to-Kindle EPUB Fixer Service"
-msgstr ""
-"Calibre-Web Automated - Envoyer vers le service de correction EPUB de Kindle"
+msgstr "Calibre-Web Automated - Service de correction EPUB Send-to-Kindle"
 
 #: cps/cwa_functions.py:815
 msgid "You must be an admin to access this page."
@@ -1050,9 +1044,9 @@ msgid "edit metadata"
 msgstr "modifier les métadonnées"
 
 #: cps/editbooks.py:1228
-#, fuzzy, python-format
+#, python-format
 msgid "Seriesindex: %(seriesindex)s is not a valid number, skipping"
-msgstr "%(seriesindex)s n’est pas un nombre valide, ignoré"
+msgstr "Index de série : %(seriesindex)s n’est pas un nombre valide, ignoré"
 
 #: cps/editbooks.py:1422
 msgid "User has no rights to upload additional file formats"
@@ -1109,9 +1103,8 @@ msgstr "%(format)s introuvable : %(fn)s"
 
 #: cps/helper.py:92 cps/helper.py:221 cps/templates/detail.html:59
 #: cps/templates/detail.html:60 cps/templates/detail.html:130
-#, fuzzy
 msgid "Send to eReader"
-msgstr "Envoyer vers Kindle"
+msgstr "Envoyer vers la liseuse"
 
 #: cps/helper.py:93 cps/helper.py:113
 msgid "This Email has been sent via Calibre-Web Automated."
@@ -1135,24 +1128,23 @@ msgid "Registration Email for user: %(name)s"
 msgstr "Courriel d’inscription pour l’utilisateur : %(name)s"
 
 #: cps/helper.py:145 cps/helper.py:151
-#, fuzzy, python-format
+#, python-format
 msgid "Convert %(orig)s to %(format)s and send to eReader"
-msgstr "Convertir de %(orig)s vers %(format)s et envoyer au Kindle"
+msgstr "Convertir de %(orig)s vers %(format)s et envoyer à la liseuse"
 
 #: cps/helper.py:170 cps/helper.py:174 cps/helper.py:178
-#, fuzzy, python-format
+#, python-format
 msgid "Send %(format)s to eReader"
-msgstr "Envoyer %(format)s vers le Kindle"
+msgstr "Envoyer %(format)s à la liseuse"
 
 #: cps/helper.py:218
-#, fuzzy, python-format
+#, python-format
 msgid "%(book)s send to eReader"
-msgstr "Envoyer vers Kindle"
+msgstr "%(book)s envoyé à la liseuse"
 
 #: cps/helper.py:223
-#, fuzzy
 msgid "This Email has been sent via Automated."
-msgstr "Ce courriel a été envoyé depuis Calibre-Web."
+msgstr "Cet e-mail a été envoyé via Automated."
 
 #: cps/helper.py:225
 msgid "The requested file could not be read. Maybe wrong permissions?"
@@ -1319,13 +1311,12 @@ msgstr ""
 "Mettre en file d’attente tous les livres pour la sauvegarde des métadonnées"
 
 #: cps/kobo_auth.py:80
-#, fuzzy
 msgid ""
 "Please access Calibre-Web Automated from non localhost to get valid "
 "api_endpoint for kobo device"
 msgstr ""
-"Veuilllez ne pas accéder à calibre-web par localhost pour obtenir un "
-"api_endpoint valide pour un appareil kobo"
+"Veuillez accéder à Calibre-Web Automated depuis une adresse non localhost "
+"pour obtenir un api_endpoint valide pour l'appareil Kobo"
 
 #: cps/kobo_auth.py:106
 msgid "Kobo Setup"
@@ -1341,11 +1332,10 @@ msgid "Register with %(provider)s"
 msgstr "Enregistrer avec %(provider)s"
 
 #: cps/oauth_bb.py:108
-#, fuzzy
 msgid "Login failed: Could not connect to the user info endpoint."
 msgstr ""
-"Identification échouée: Echec de connexion aux informations du endpoint "
-"utilisateur."
+"Échec de connexion : Impossible de se connecter au point de terminaison des "
+"infos utilisateur."
 
 #: cps/oauth_bb.py:112
 msgid "Login failed: The OAuth provider returned an invalid user profile."
@@ -1627,9 +1617,9 @@ msgid "Rating >= %(rating)s"
 msgstr "Évaluation >= %(rating)s"
 
 #: cps/search.py:224
-#, fuzzy, python-format
+#, python-format
 msgid "Read Status = '%(status)s'"
-msgstr "Status de lecture = %(status)s"
+msgstr "Status de lecture = '%(status)s'"
 
 #: cps/search.py:341
 msgid "Error on search for custom columns, please restart Calibre-Web"
@@ -1906,22 +1896,16 @@ msgid "Oops! There was an error sending book: %(res)s"
 msgstr "Il y a eu une erreur en envoyant ce livre : %(res)s"
 
 #: cps/web.py:1361
-#, fuzzy
 msgid "Oops! Please update your profile with a valid eReader Email."
-msgstr ""
-"Veuillez mettre à jour votre profil avec une adresse de courriel Kindle "
-"valide."
+msgstr "Oups ! Veuillez mettre à jour votre profil avec une adresse e-mail de liseuse valide."
 
 #: cps/web.py:1378
 msgid "No email addresses selected"
 msgstr "Aucune adresse email sélectionnée"
 
 #: cps/web.py:1386
-#, fuzzy
 msgid "Success! Book queued for sending to selected addresses"
-msgstr ""
-"Le livre a été mis en file de traitement avec succès pour un envoi vers %"
-"(eReadermail)s"
+msgstr "Succès ! Livre mis en file d'attente pour envoi aux adresses sélectionnées"
 
 #: cps/web.py:1405
 msgid "Please wait one minute to register next user"
@@ -1935,11 +1919,8 @@ msgid "Register"
 msgstr "Créer un compte"
 
 #: cps/web.py:1409 cps/web.py:1517
-#, fuzzy
 msgid "Connection error to limiter backend, please contact your administrator"
-msgstr ""
-"Erreur de connexion au backend du limiteur, veuillez contacter votre "
-"administrateur"
+msgstr "Erreur de connexion au backend du limiteur, veuillez contacter votre administrateur"
 
 #: cps/web.py:1414 cps/web.py:1466
 msgid ""
@@ -1961,9 +1942,8 @@ msgid "Cannot activate LDAP authentication"
 msgstr "Impossible d’activer l’authentification LDAP"
 
 #: cps/web.py:1513
-#, fuzzy
 msgid "Please wait one minute before next login"
-msgstr "Veuillez attendre une minute avant votre prochaine connexion"
+msgstr "Veuillez patienter une minute avant la prochaine connexion"
 
 #: cps/web.py:1532
 #, python-format
@@ -2033,9 +2013,9 @@ msgid "Delete temp folder contents"
 msgstr "Suppression du contenu du dossier temporaire"
 
 #: cps/tasks/convert.py:98
-#, fuzzy, python-format
+#, python-format
 msgid "%(book)s send to E-Reader"
-msgstr "%(book)s envoyer vers Kindle"
+msgstr "%(book)s envoyé à la liseuse"
 
 #: cps/tasks/convert.py:162
 #, python-format
@@ -2128,9 +2108,8 @@ msgid "Email"
 msgstr "Adresse mail"
 
 #: cps/templates/admin.html:16
-#, fuzzy
 msgid "Send to eReader Email"
-msgstr "Envoyer vers une adresse mail Kindle"
+msgstr "Envoyer vers l'e-mail de la liseuse"
 
 #: cps/templates/admin.html:18 cps/templates/layout.html:162
 #: cps/templates/user_table.html:143
@@ -2204,9 +2183,8 @@ msgid "From Email"
 msgstr "Expéditeur des courriels"
 
 #: cps/templates/admin.html:93
-#, fuzzy
 msgid "Email Service"
-msgstr "Service courriel"
+msgstr "Service d'e-mail"
 
 #: cps/templates/admin.html:94
 msgid "Gmail via Oauth2"
@@ -2684,9 +2662,8 @@ msgid "Clear all"
 msgstr "Nettoyer tout"
 
 #: cps/templates/book_table.html:84
-#, fuzzy
 msgid "Update Title Sort automatically  "
-msgstr "Mettre à jour automatiquement le tri des titres"
+msgstr "Mettre à jour le tri par titre automatiquement "
 
 #: cps/templates/book_table.html:88
 msgid "Update Author Sort automatically"
@@ -2761,9 +2738,8 @@ msgstr "Lu ?"
 #: cps/templates/book_table.html:123 cps/templates/book_table.html:125
 #: cps/templates/book_table.html:129 cps/templates/book_table.html:131
 #: cps/templates/book_table.html:135
-#, fuzzy
 msgid "Enter "
-msgstr "Valider"
+msgstr "Saisir "
 
 #: cps/templates/book_table.html:158 cps/templates/book_table.html:182
 #: cps/templates/book_table.html:202 cps/templates/book_table.html:222
@@ -2833,7 +2809,6 @@ msgid "Location of Calibre Database (metadata.db file)"
 msgstr "Emplacement de la base de données Calibre (fichier metadata.db)"
 
 #: cps/templates/config_db.html:23
-#, fuzzy
 msgid ""
 "CWA is configured so that your Calibre Database (<code>metadata.db</code> "
 "file) should always be somewhere in <code>/calibre-library</code>.\n"
@@ -2853,14 +2828,14 @@ msgstr ""
 "        CWA recherche automatiquement dans le répertoire que vous avez lié à "
 "<code>/calibre-library</code> dans votre fichier docker-compose les "
 "bibliothèques Calibre existantes\n"
-"        ou les fichiers <code>metadata.db</code>. S’il trouve une seule "
-"bibliothèque existante, elle est montée automatiquement. S’il en trouve "
-"plusieurs, la plus volumineuse est\n"
+"        ou les fichiers <code>metadata.db</code> au démarrage. S’il trouve "
+"une seule bibliothèque existante, elle est montée automatiquement. S’il en "
+"trouve plusieurs, la plus volumineuse est\n"
 "        montée automatiquement par défaut. Et s’il n’en trouve aucune, une "
 "nouvelle bibliothèque est créée et montée automatiquement. Pour plus de "
-"détails :\n"
+"détails,\n"
 "        <a href=\"https://github.com/crocodilestick/Calibre-Web-Automated/"
-"wiki/Configuration#database-configuration\">regarder ici</a>!"
+"wiki/Configuration#database-configuration\">regardez ici</a> !"
 
 #: cps/templates/config_db.html:29
 msgid ""
@@ -2872,7 +2847,6 @@ msgstr ""
 "SECTIONS VOLUMES !</b>"
 
 #: cps/templates/config_db.html:30
-#, fuzzy
 msgid ""
 "These paths are internal to CWA only, you can change what they're bind to to "
 "your heart's content on the left-hand side but there's no reason to\n"
@@ -2889,11 +2863,10 @@ msgstr ""
 "vous souhaitez placer votre fichier <code>metadata.db</code> dans un autre "
 "emplacement que le reste de votre\n"
 "        bibliothèque, utilisez l’option <b>Séparer les fichiers de livres de "
-"la bibliothèque ci-dessous, puis indiquez-y le chemin vers le reste de la "
-"bibliothèque.</b>"
+"la bibliothèque</b> ci-dessous, puis indiquez-y le chemin vers le reste de "
+"la bibliothèque."
 
 #: cps/templates/config_db.html:34
-#, fuzzy
 msgid ""
 "E.g. As long as your library's <code>metadata.db</code> file is bound "
 "somewhere within <code>/calibre-library</code>, you could bind the dir\n"
@@ -2913,9 +2886,8 @@ msgstr ""
 "de livres de la bibliothèque</b> cochée."
 
 #: cps/templates/config_db.html:38
-#, fuzzy
 msgid "Split Library Functionality"
-msgstr "Sépare la fonctionnalité de la librairie"
+msgstr "Fonctionnalité de bibliothèque scindée"
 
 #: cps/templates/config_db.html:41
 msgid ""
@@ -3227,7 +3199,6 @@ msgid "OAuth Metadata URL (for auto-discovery)"
 msgstr "URL de métadonnées OAuth (pour auto-découverte)"
 
 #: cps/templates/config_edit.html:317
-#, fuzzy
 msgid "Test Metadata"
 msgstr "Tester les métadonnées"
 
@@ -3236,53 +3207,44 @@ msgid "Leave empty to use manual configuration below"
 msgstr "Laisser vide pour utiliser la configuration manuelle ci-dessous"
 
 #: cps/templates/config_edit.html:326
-#, fuzzy
 msgid "Use Manual Endpoint URLs (override auto-discovery)"
-msgstr ""
-"Utiliser manuellement les URLs des endpoints (surcharge la douverte "
-"automatique)"
+msgstr "Utiliser manuellement les URLs des points de terminaison (outrepasse la découverte automatique)"
 
 #: cps/templates/config_edit.html:327
-#, fuzzy
 msgid ""
 "Check this to manually configure individual OAuth endpoints instead of using "
 "auto-discovery"
 msgstr ""
-"Cocher ceci pour configurer manuellement les endpoints OAuth "
-"individuellement au lieu d'utiliser la découverte automatique"
+"Cocher ceci pour configurer manuellement les points de terminaison OAuth "
+"individuels au lieu d'utiliser la découverte automatique"
 
 #: cps/templates/config_edit.html:332
-#, fuzzy
 msgid "Manual Endpoint Configuration"
-msgstr "Configuration manuelle du endpoint"
+msgstr "Configuration manuelle du point de terminaison"
 
 #: cps/templates/config_edit.html:335
 msgid "OAuth Base URL"
 msgstr "URL de base OAuth"
 
 #: cps/templates/config_edit.html:340
-#, fuzzy
 msgid "Authorization Endpoint"
-msgstr "Endpoint d'authorisation"
+msgstr "Point de terminaison d'autorisation"
 
 #: cps/templates/config_edit.html:345
-#, fuzzy
 msgid "Token Endpoint"
-msgstr "Token Endpoint"
+msgstr "Point de terminaison du jeton (Token)"
 
 #: cps/templates/config_edit.html:350
-#, fuzzy
 msgid "UserInfo Endpoint"
-msgstr "Endpoint d'information d'utilisateur"
+msgstr "Point de terminaison des infos utilisateur"
 
 #: cps/templates/config_edit.html:358
 msgid "Test Connection"
-msgstr "Test de connexion"
+msgstr "Tester la connexion"
 
 #: cps/templates/config_edit.html:367
-#, fuzzy
 msgid "OAuth Scopes"
-msgstr "Réglages OAuth"
+msgstr "Périmètres OAuth (Scopes)"
 
 #: cps/templates/config_edit.html:369
 msgid "Space-separated list of OAuth scopes"
@@ -3317,9 +3279,8 @@ msgid "JWT field to extract email from"
 msgstr "Champs JWT d'où extraire le courriel"
 
 #: cps/templates/config_edit.html:394
-#, fuzzy
 msgid "OAuth group for Admin"
-msgstr "Groupe d'administrateur pour OAuth"
+msgstr "Groupe OAuth pour l'Admin"
 
 #: cps/templates/config_edit.html:398
 msgid "Login Button Text"
@@ -3369,14 +3330,12 @@ msgid "Limit failed login attempts"
 msgstr "Limiter le nombre de tentatives de connexion"
 
 #: cps/templates/config_edit.html:480
-#, fuzzy
 msgid "Configure Backend for Limiter"
 msgstr "Configurer le backend pour le limiteur"
 
 #: cps/templates/config_edit.html:484
-#, fuzzy
 msgid "Options for Limiter Backend"
-msgstr "Options pour backend du limiteur"
+msgstr "Options pour le backend du limiteur"
 
 #: cps/templates/config_edit.html:490
 msgid "Check if file extensions matches file content on upload"
@@ -3563,13 +3522,12 @@ msgid "Enable CWA Auto-Convert"
 msgstr "Activer la conversion automatique CWA"
 
 #: cps/templates/cwa_settings.html:26
-#, fuzzy
 msgid ""
 "On by default, when active all ingested books will automatically be "
 "converted to the target format specified below (epub by default) \n"
 "        <em>EXCEPT</em> those you have specifically told CWA to ignore below."
 msgstr ""
-"Activé par défaut. Quand actif, tous les livres traités seront "
+"Activé par défaut. Si actif, tous les livres ingérés seront "
 "automatiquement convertis dans le format spécifié ci-dessous (epub par "
 "défaut) \n"
 "        <em>SAUF</em> ceux que vous avez explicitement demandé à CWA "
@@ -3582,7 +3540,6 @@ msgstr ""
 "métadonnées"
 
 #: cps/templates/cwa_settings.html:37
-#, fuzzy
 msgid ""
 "On by default, when active, whenever the Metadata and/or Cover Image is "
 "edited in the Web UI, the CWA Metadata Enforcement service \n"
@@ -3592,21 +3549,18 @@ msgid ""
 "themselves. This feature currently only supports files in EPUB \n"
 "        or AZW3 format."
 msgstr ""
-"Activé par défaut, lorsque cette option est active, à chaque fois que les "
+"Activé par défaut. Si actif, chaque fois que les "
 "métadonnées et/ou l’image de couverture sont modifiées dans l’interface "
-"Web,\n"
-"        le service CWA Metadata Enforcement applique alors ces modifications "
-"directement aux fichiers ebook eux-mêmes. En temps normal, dans la version\n"
-"        standard de CWA ou lorsque ce paramètre est désactivé, les "
-"changements effectués ne s’appliquent qu’à ce que vous voyez dans "
-"l’interface Web,\n"
-"        et non aux fichiers ebook réels. Cette fonctionnalité ne prend "
+"Web, le service CWA Metadata Enforcement applique alors ces modifications "
+"directement aux fichiers ebook eux-mêmes. En temps normal, dans la version "
+"standard de CWA ou lorsque ce paramètre est désactivé, les changements "
+"effectués ne s’appliquent qu’à ce que vous voyez dans l’interface Web, "
+"et non aux fichiers ebook réels. Cette fonctionnalité ne prend "
 "actuellement en charge que les fichiers aux formats EPUB et AZW3."
 
 #: cps/templates/cwa_settings.html:48
-#, fuzzy
 msgid "Enable CWA Kindle EPUB Fixer"
-msgstr "CWA Send-to-Kindle Service de correction EPUB"
+msgstr "Activer le correcteur EPUB Kindle CWA"
 
 #: cps/templates/cwa_settings.html:50
 msgid ""
@@ -3624,7 +3578,6 @@ msgid "Web UI Settings"
 msgstr "Paramètres de l'interface web"
 
 #: cps/templates/cwa_settings.html:66
-#, fuzzy
 msgid "Enable CWA Update Notifications"
 msgstr "Activer les notifications de mise à jour CWA"
 
@@ -3655,24 +3608,21 @@ msgid "Enable Blurred Backgrounds on Mobile (&lt;768px)"
 msgstr "Activer les arrières plan flous sur Mobile (&lt;768px)"
 
 #: cps/templates/cwa_settings.html:88
-#, fuzzy
 msgid ""
 "When active, the blurred cover background effect is also rendered on small "
 "screens. Disable if you notice scrolling or animation lag."
 msgstr ""
 "Lorsque cette option est activée, l’effet d’arrière-plan flouté de la "
-"couverture est également appliqué sur les petits écrans.\n"
-"Désactivez-la si vous remarquez des ralentissements lors du défilement ou "
-"des animations."
+"couverture est également rendu sur les petits écrans. Désactivez-la si vous "
+"remarquez des ralentissements lors du défilement ou des animations."
 
 #: cps/templates/cwa_settings.html:93
 msgid "Automatic Backup Settings"
 msgstr "Réglages de sauvegarde automatisée"
 
 #: cps/templates/cwa_settings.html:100
-#, fuzzy
 msgid "Enable CWA Import Auto-Backup"
-msgstr "Activer l'import de backup automatisé de CWA"
+msgstr "Activer la sauvegarde automatique d'import CWA"
 
 #: cps/templates/cwa_settings.html:102
 msgid ""
@@ -3683,9 +3633,8 @@ msgstr ""
 "config/processed_books/imported</i>"
 
 #: cps/templates/cwa_settings.html:110
-#, fuzzy
 msgid "Enable CWA Conversion Auto-Backup"
-msgstr "Activer la conversion de backup automatisé de CWA"
+msgstr "Activer la sauvegarde automatique de conversion CWA"
 
 #: cps/templates/cwa_settings.html:112
 msgid ""
@@ -3696,9 +3645,8 @@ msgstr ""
 "dossier /config/processed_books/converted"
 
 #: cps/templates/cwa_settings.html:120
-#, fuzzy
 msgid "Enable CWA EPUB Fixer Auto-Backup"
-msgstr "Activer la correction d'EPUB de backup automatisé de CWA"
+msgstr "Activer la sauvegarde automatique du correcteur EPUB CWA"
 
 #: cps/templates/cwa_settings.html:122
 msgid ""
@@ -3710,9 +3658,8 @@ msgstr ""
 "processed_books/fixed_originals"
 
 #: cps/templates/cwa_settings.html:132
-#, fuzzy
 msgid "Enable CWA Auto-Zip Backups"
-msgstr "Activer les sauvegardes Auto-Zip de CWA"
+msgstr "Activer les sauvegardes Auto-Zip CWA"
 
 #: cps/templates/cwa_settings.html:134
 msgid ""
@@ -3742,9 +3689,8 @@ msgstr ""
 "sélectionnés dans la liste à ignorer ci-dessous)"
 
 #: cps/templates/cwa_settings.html:144
-#, fuzzy
 msgid "Choose a target format:"
-msgstr "Convertir le format du livre :"
+msgstr "Choisir un format cible :"
 
 #: cps/templates/cwa_settings.html:155
 msgid ""
@@ -3784,9 +3730,8 @@ msgstr ""
 "pas ajoutés à la bibliothèque par CWA lors du processus d’ingestion"
 
 #: cps/templates/cwa_settings.html:214
-#, fuzzy
 msgid "CWA Auto-Ingest Automerge"
-msgstr "Fusion et ingestion automatique de CWA"
+msgstr "Fusion automatique CWA Auto-Ingest"
 
 #: cps/templates/cwa_settings.html:217
 msgid "Calibre can detect Duplicate Book Titles on Import and depending on the"
@@ -3816,9 +3761,8 @@ msgstr ""
 "Ecrase la copie de la bibliothèque avec le fichier nouvellement importé"
 
 #: cps/templates/cwa_settings.html:244
-#, fuzzy
 msgid "Creates a duplicate record, keeping both copies"
-msgstr "Crée un duplicata d'enregistrement, en gardant les deux copies"
+msgstr "Crée un enregistrement en double, en gardant les deux copies"
 
 #: cps/templates/cwa_settings.html:253
 msgid "Ingest Processing Timeout"
@@ -3849,19 +3793,16 @@ msgid "Click to See More"
 msgstr "Cliquer pour voir plus"
 
 #: cps/templates/detail.html:66
-#, fuzzy
 msgid "Please select at least one email address"
-msgstr "Le nouveau mot de passe a été envoyé vers votre adresse de courriel"
+msgstr "Veuillez sélectionner au moins une adresse e-mail"
 
 #: cps/templates/detail.html:67
-#, fuzzy
 msgid "Error sending email"
-msgstr "Erreur lors de la suppression de l’étagère"
+msgstr "Erreur lors de l'envoi de l'e-mail"
 
 #: cps/templates/detail.html:74
-#, fuzzy
 msgid "Select eReader Email Addresses"
-msgstr "Envoyer vers une adresse mail Kindle"
+msgstr "Sélectionner les adresses e-mail des liseuses"
 
 #: cps/templates/detail.html:80
 msgid "Choose email addresses:"
@@ -3946,9 +3887,8 @@ msgid "Select Duplicates"
 msgstr "Sélectionner les doublons"
 
 #: cps/templates/duplicates.html:291
-#, fuzzy
 msgid "Select None"
-msgstr "Sélectionner aucun"
+msgstr "Ne rien sélectionner"
 
 #: cps/templates/duplicates.html:292
 msgid "Delete Selected"
@@ -3959,10 +3899,8 @@ msgid "No Duplicate Books Found"
 msgstr "Pas de livres en double trouvés"
 
 #: cps/templates/duplicates.html:344
-#, fuzzy
 msgid "Your library has no books with duplicate title and author combinations."
-msgstr ""
-"Votre libraire n'a pas de livres en double avec la combinaison livre/auteur"
+msgstr "Votre bibliothèque n'a pas de livres avec des combinaisons titre/auteur en double."
 
 #: cps/templates/duplicates.html:345
 msgid ""
@@ -4066,9 +4004,8 @@ msgstr ""
 "ajouter (ou éditer):"
 
 #: cps/templates/generate_kobo_auth_url.html:11
-#, fuzzy
 msgid "Kobo Token:"
-msgstr "Jeton de synchro Kobo"
+msgstr "Jeton Kobo :"
 
 #: cps/templates/grid.html:21
 msgid "List"
@@ -4422,30 +4359,28 @@ msgid "Font"
 msgstr "Police"
 
 #: cps/templates/read.html:106
-#, fuzzy
 msgid "Default"
-msgstr "Par défault"
+msgstr "Par défaut"
 
 #: cps/templates/read.html:107
 msgid "Yahei"
-msgstr ""
+msgstr "Yahei"
 
 #: cps/templates/read.html:108
 msgid "SimSun"
-msgstr ""
+msgstr "SimSun"
 
 #: cps/templates/read.html:109
 msgid "KaiTi"
-msgstr ""
+msgstr "KaiTi"
 
 #: cps/templates/read.html:110
 msgid "Arial"
-msgstr ""
+msgstr "Arial"
 
 #: cps/templates/read.html:113
-#, fuzzy
 msgid "Spread"
-msgstr "Diffuser"
+msgstr "Étalé"
 
 #: cps/templates/read.html:114
 msgid "Two columns"
@@ -4456,9 +4391,8 @@ msgid "One column"
 msgstr "Une colonne"
 
 #: cps/templates/readcbr.html:8
-#, fuzzy
 msgid "Comic Reader"
-msgstr "Lecteur de Comic"
+msgstr "Lecteur de BD"
 
 #: cps/templates/readcbr.html:75
 msgid "Keyboard Shortcuts"
@@ -4573,7 +4507,6 @@ msgid "Right to Left"
 msgstr "De droite à gauche"
 
 #: cps/templates/readcbr.html:162
-#, fuzzy
 msgid "Reset to Top"
 msgstr "Retour en haut"
 
@@ -4825,13 +4758,12 @@ msgstr ""
 "enregistré."
 
 #: cps/templates/tasks.html:42
-#, fuzzy
 msgid ""
 "If this is a scheduled task, it will be re-ran during the next scheduled "
 "time."
 msgstr ""
-"Si c'est une tâche programmée, elle sera relancée lors de la prochaine "
-"programmation."
+"S'il s'agit d'une tâche planifiée, elle sera relancée lors de la prochaine "
+"occurrence prévue."
 
 #: cps/templates/user_edit.html:20
 msgid "Reset user Password"
@@ -4923,9 +4855,8 @@ msgid "eReader Email"
 msgstr "Mail eReader"
 
 #: cps/templates/user_table.html:137
-#, fuzzy
 msgid "Locale"
-msgstr "Localisation"
+msgstr "Paramètres régionaux"
 
 #: cps/templates/user_table.html:138
 msgid "Visible Book Languages"
@@ -4982,151 +4913,3 @@ msgstr "Synchroniser les étagères sélectionnées avec Kobo"
 #: cps/templates/user_table.html:156
 msgid "Show Read/Unread Section"
 msgstr "Afficher la section Lu / Non lu"
-
-#~ msgid ""
-#~ "Library Refresh 🔄 The book ingest service is already running ✋ Please "
-#~ "wait until it has finished before trying again ⌛"
-#~ msgstr ""
-#~ "Actualisation de la bibliothèque 🔄 Le service d'importation des livres "
-#~ "est déjà en cours d'exécution ✋ Veuillez patienter jusqu'à ce qu'il soit "
-#~ "terminé avant de réessayer ⌛"
-
-#~ msgid "Library Refresh 🔄 Library refreshed & ingest process complete! ✅"
-#~ msgstr ""
-#~ "Actualisation de la bibliothèque 🔄 Actualisation de la bibliothèque et "
-#~ "processus d'ingestion terminés ! ✅"
-
-#~ msgid "Library Refresh 🔄 An unexpected error occurred, check the logs ⛔"
-#~ msgstr ""
-#~ "Actualisation de la bibliothèque 🔄 Une erreur inattendue s'est produite, "
-#~ "vérifiez les journaux ⛔"
-
-#, python-format
-#~ msgid "File %(file)s uploaded"
-#~ msgstr "Le fichier %(file)s a été téléchargé"
-
-#~ msgid "Ratings list"
-#~ msgstr "Liste des évaluations"
-
-#~ msgid "Merge selected books"
-#~ msgstr "Fusionner les livres sélectionnés"
-
-#, fuzzy
-#~ msgid "Clear selections"
-#~ msgstr "Supprimer la sélection"
-
-#~ msgid "Edit selected books"
-#~ msgstr "Editer les livres sélectionnés"
-
-#~ msgid "Archive selected books"
-#~ msgstr "Archiver les livres sélectionnés"
-
-#~ msgid "Unarchive selected books"
-#~ msgstr "Désarchiver les livres sélectionnés"
-
-#~ msgid "Mark selected books as read"
-#~ msgstr "Marquer les livres sélectionnés comme lus"
-
-#~ msgid "Mark selected books as unread"
-#~ msgstr "Marquer les livres sélectionnés comme non-lus"
-
-#~ msgid "Mark Book as Read or Unread"
-#~ msgstr "Marquer le livre comme lu ou non lu"
-
-#~ msgid ""
-#~ "Mark Book as archived or not, to hide it in Calibre-Web and delete it "
-#~ "from Kobo Reader"
-#~ msgstr ""
-#~ "Marquer le livre comme archivé ou non, pour le cacher dans Calibre-Web et "
-#~ "le supprimer de Kobo Reader"
-
-#, fuzzy, python-format
-#~ msgid "%(seriesindex)s is not a valid number, skipping"
-#~ msgstr "%(seriesindex)s n’est pas un nombre valide, ignoré"
-
-#~ msgid "Calibre-Web configuration updated"
-#~ msgstr "Configuration de Calibre-Web mise à jour"
-
-#~ msgid ""
-#~ "Are you sure you want delete Calibre-Web's sync database to force a full "
-#~ "sync with your Kobo Reader?"
-#~ msgstr ""
-#~ "Êtes-vous certain de vouloir supprimer la base de données de "
-#~ "synchronisation de Calibre-Web pour forcer une synchronisation complète "
-#~ "avec votre liseuse Kobo ?"
-
-#, fuzzy
-#~ msgid "Calibre-Web Test Email"
-#~ msgstr "Courriel de test de Calibre-Web"
-
-#, fuzzy
-#~ msgid "This Email has been sent via Calibre-Web."
-#~ msgstr "Ce courriel a été envoyé depuis Calibre-Web."
-
-#~ msgid "Get Started with Calibre-Web"
-#~ msgstr "Bien démarrer avec Calibre-Web"
-
-#, fuzzy
-#~ msgid ""
-#~ "Please access Calibre-Web from non localhost to get valid api_endpoint "
-#~ "for kobo device"
-#~ msgstr ""
-#~ "Veuilllez ne pas accéder à calibre-web par localhost pour obtenir un "
-#~ "api_endpoint valide pour un appareil kobo"
-
-#, fuzzy
-#~ msgid "This Email has been sent via  Autmoated."
-#~ msgstr "Ce courriel a été envoyé depuis Calibre-Web."
-
-#, fuzzy
-#~ msgid "This Email has been sent via  Automated."
-#~ msgstr "Cet email a été envoyé depuis Calibre-Web."
-
-#, fuzzy
-#~ msgid "Downloads per User"
-#~ msgstr "Téléchargements par utilisateur"
-
-#, fuzzy
-#~ msgid "This Email has been sent via  Autoated."
-#~ msgstr "Ce courriel a été envoyé depuis Calibre-Web."
-
-#, fuzzy
-#~ msgid "unknown error"
-#~ msgstr "Erreur de connexion"
-
-#, fuzzy
-#~ msgid "Could not open file {filename!r}: {message}"
-#~ msgstr "Impossible de se connecter: %(message)s"
-
-#, fuzzy
-#~ msgid "{value!r} is not a valid boolean."
-#~ msgstr "Cette adresse de courriel n’appartient pas à un domaine valide"
-
-#, fuzzy
-#~ msgid "directory"
-#~ msgstr "Direction"
-
-#, fuzzy
-#~ msgid "{name} {filename!r} is not writable."
-#~ msgstr "La base de données n'est pas accessible en écriture"
-
-#, fuzzy
-#~ msgid "Repeat for confirmation"
-#~ msgstr "Configuration des options"
-
-#, fuzzy
-#~ msgid "Value must be an iterable."
-#~ msgstr "La valeur doit être vraie ou fausse"
-
-#~ msgid "Users"
-#~ msgstr "Liste des utilisateurs"
-
-#~ msgid "Configuration"
-#~ msgstr "Configuration"
-
-#~ msgid "Click the cover to load metadata to the form"
-#~ msgstr ""
-#~ "Cliquer sur la couverture pour importer les métadonnées dans le formulaire"
-
-#~ msgid "Series Index"
-#~ msgstr "Index des séries"
